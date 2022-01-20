@@ -34,4 +34,4 @@ mr-auto => me-auto
 [Navbar](https://getbootstrap.com/docs/5.1/components/navbar/)
 
 ## Bootstrap grid layout system
-[grid](https://getbootstrap.com/docs/5.1/layout/grid/)
+[Grid](https://getbootstrap.com/docs/5.1/layout/grid/)
