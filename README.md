@@ -32,10 +32,21 @@ ml-auto => ms-auto
 mr-auto => me-auto
 
 Practice:
+Create <nav> <ul> <li>
+Add class navbar-nav nav-item
+Make contact a link with nav-link
+Add two more links
+Make horizontal with navbar-expand-lg
+Change background with bg-light
+Change style with navbar-light
+Create logo with navbar-brand
+Creacte a space between links and brand(logo) with margin
+Add toggler
+
 Dropdown link
 Affect the position of the navbar by changing to Fixed top
 ```
-```css
+```html
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="">tindog</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
