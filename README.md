@@ -73,6 +73,15 @@ Affect the position of the navbar by changing to Fixed top
 [Spacing](https://getbootstrap.com/docs/5.1/utilities/spacing/)
 
 ## Bootstrap grid layout system
+```
+Create a row div
+Create a col div has much has you want
+Challenge:
+Create two non responsive colums in a row
+Create two non responsive colums that are half of the width
+Create four responsive colums: large 4, ipad 3, phone 1
+Create six responsive colums: large 6, ipad 4, phone 1
+```
 [Grid](https://getbootstrap.com/docs/5.1/layout/grid/)
 
 ## Containers
