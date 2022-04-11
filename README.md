@@ -85,6 +85,11 @@ Create six responsive colums: large 6, ipad 4, phone 1
 [Grid](https://getbootstrap.com/docs/5.1/layout/grid/)
 
 ## Containers
+```
+The container div can contain other div's, buttons, tables, etc, and its automatically responsive.
+The fluid container take up 100% of the width.
+Obserbation: Inspect the diferent values of the width of the container div, look for @media (max-width) on styles.
+```
 ```html
 <div class="container" style="background-color:red">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
