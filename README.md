@@ -113,3 +113,4 @@ or
 or
 <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
 ```
+[Buttons](https://getbootstrap.com/docs/5.1/components/buttons/)
