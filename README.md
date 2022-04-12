@@ -110,5 +110,6 @@ Fontawesome CDN
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 or
 <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
-
+or
+<script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
 ```
