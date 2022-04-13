@@ -114,3 +114,12 @@ or
 <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
 ```
 [Buttons](https://getbootstrap.com/docs/5.1/components/buttons/)
+
+## Styling ou website challenge
+```
+Recap Navbar, buttons, containers, grids
+Play with the buttons margin padding
+```
+[CSS transform property](https://www.w3schools.com/cssref/css3_pr_transform.asp)
+[transform-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function)
+[rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
