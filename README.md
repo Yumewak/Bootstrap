@@ -83,6 +83,7 @@ Create four responsive colums: large 4, ipad 3, phone 2
 Create six responsive colums: large 6, ipad 4, phone 1
 ```
 [Grid](https://getbootstrap.com/docs/5.1/layout/grid/)
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)
 
 ## Containers
 ```
