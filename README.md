@@ -124,3 +124,8 @@ Play with the buttons margin padding
 [CSS transform property](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 [transform-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function)
 [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
+
+## Carousel
+```
+
+```
