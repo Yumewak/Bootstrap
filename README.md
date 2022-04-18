@@ -180,3 +180,4 @@ aria-hidden="true": This is for visually impaired person and the screen reader d
     height:500px;
 }
 ```
+[Carousel](https://getbootstrap.com/docs/5.1/components/carousel/)
