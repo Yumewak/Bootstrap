@@ -125,7 +125,58 @@ Play with the buttons margin padding
 [transform-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function) \
 [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
 
-## Carousel
+## The Bootstrap Carousel
 ```
+1.-Copy the first example, select carousel-item and give a 500px height and an inline style background color to all 3 item
+2.-Put controls buttons to change the slide
 
+Observations:
+In class="carousel slide" the slide keywork make the slide efect
+See the difference between the slides only and with controls
+
+Exercices:
+Change the speed, hover and ride
+Try change the <button> for an <a> or <h1>, if you cant try adding "role="button"
+
+Recap:
+id="example-target-id": Is the target of data-bs-target="#example-target-id"
+data-bs-ride="false": Autoplays the carousel after the user manually cycles the first item
+class="carousel slide": The div is gonna be a carousel and the "slide" gives animation from right to left or left to right
+carousel-inne: Contain the content of carousel items
+carousel-item active: This is the first slide is marked with "active" class and inside this div we can put anything
+
+carousel-contro-prev: Left button
+data-bs-target: This is where we put the id of the carousel
+data-bs-slide="prev": The direction of the animation
+class="carousel-control-next-icon": This is the button icon
+aria-hidden="true": This is for visually impaired person and the screen reader doesn't read the button
+
+```
+```html
+<div id="example-target-id" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-color:red">
+      <img src="..." class="d-block w-100" alt="First item">
+    </div>
+    <div class="carousel-item" style="background-color:yellow">
+      <img src="..." class="d-block w-100" alt="Second item">
+    </div>
+    <div class="carousel-item" style="background-color:blue">
+      <img src="..." class="d-block w-100" alt="Third item">
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#example-target-id" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#example-target-id" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+```
+```css
+.carousel-item {
+    height:500px;
+}
 ```
