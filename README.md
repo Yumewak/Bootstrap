@@ -9,8 +9,8 @@ A Front-End library
 <button class="btn btn-dark">Hello World</button>
 <button class="btn btn-lg btn-outline-dark">Hello World</button>
 ```
-[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-[Navbar](https://getbootstrap.com/docs/5.1/components/navbar/)
+[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) \
+[Navbar](https://getbootstrap.com/docs/5.1/components/navbar/) \
 [Examples](https://getbootstrap.com/docs/5.1/examples/)
 
 ## Installing bootstrap
@@ -22,7 +22,7 @@ A Front-End library
 [CDN](https://www.akamai.com/es/our-thinking/cdn/what-is-a-cdn)
 
 ## Web Design 101 Wireframing
-[Wireframing](https://www.lucidchart.com/pages/es/que-es-un-wireframe-para-un-sitio-web)
+[Wireframing](https://www.lucidchart.com/pages/es/que-es-un-wireframe-para-un-sitio-web) \
 [Mockup](https://moqups.com/es/)
 
 ## Bootstrap navigation bar
@@ -82,7 +82,7 @@ Create two non responsive colums that are half of the width
 Create four responsive colums: large 4, ipad 3, phone 2
 Create six responsive colums: large 6, ipad 4, phone 1
 ```
-[Grid](https://getbootstrap.com/docs/5.1/layout/grid/)
+[Grid](https://getbootstrap.com/docs/5.1/layout/grid/) \
 [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)
 
 ## Containers
@@ -181,3 +181,55 @@ aria-hidden="true": This is for visually impaired person and the screen reader d
 }
 ```
 [Carousel](https://getbootstrap.com/docs/5.1/components/carousel/)
+
+## Bootstrap cards
+```
+Bootstrap cards provides a container (look first "Example")
+
+Difference between Bootstrap 4 and 5:
+Bootstrap 4: card-deck = Bootstrap 5: card-group
+Bootstrap 4: btn-block = Bootstrap 5: w-100 (or use) <div class="d-grid gap-2"> (Block buttons)
+
+For Bootstrap card-deck use the Bootstrap 5 grid system
+
+Challenge: Create a card from scratch with header, a body, and a footer
+
+Challenge: How can you make the third card become 100% at the ipad width, basically medium and below, but keep
+the other two only 50%, but only when you get onto the full mobile size do you make all three 100%
+
+Challenge: Make the buttons match the Bootstrap example
+
+Activity: First copy and paste the card "pricing example" in to codeply, next change the "sign up free" button to outline-dark
+```
+```
+Bootstrap card containers have a header, body and footer if you like, here's a solution for the first challenge
+```
+```html
+<div class="card">
+    <div class="card-header">
+        Card Header
+    </div>
+    <div class="card-body">
+        Card Body
+    </div>
+</div>
+```
+```
+Solution to the second challenge
+```
+```html
+<div class="row">
+    <div class="col-lg-4 col-md-6" style="background-color:yellow; border:1px solid;">
+        col
+    </div>
+    <div class="col-lg-4 col-md-6" style="background-color:yellow; border:1px solid;">
+        col
+        </div>
+    <div class="col-lg-4" style="background-color:yellow; border:1px solid;">
+        col
+    </div>
+</div>
+```
+[Cards](https://getbootstrap.com/docs/5.1/components/card/) \
+[Pricing example](https://getbootstrap.com/docs/5.1/examples/pricing/) \
+[Buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
