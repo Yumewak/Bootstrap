@@ -233,3 +233,68 @@ Solution to the second challenge
 [Cards](https://getbootstrap.com/docs/5.1/components/card/) \
 [Pricing example](https://getbootstrap.com/docs/5.1/examples/pricing/) \
 [Buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
+
+## Code refactoring
+```
+Dont' Repeat Yourself
+You should refactor your code and mantain it to keep your code in a state as if you expect the next
+person who's going to have to maintain your code to be an axe murder.
+Code refactoring rules: This are in order of recommended priority
+
+1.- Readability: Make sure that your code is easy to understand but not just yourself but maybe, your future self
+when you come back in a year to try and understand your code, can you quickly understand what's going on.
+Is everything organized in a logical way?
+Is everything commented so that you can easily understand what each part of the code is about?
+So try to keep your code readable
+
+2.- Modularity: how easy is it to reuse bits of your code and how easy is it to narrow down.
+Say if, one particular part of your web site breaks down, is your code modular enough that you 
+would be able to narrow down on the exact section of code or code file that's responsible for the problems.
+Modularity allows you to drill down on a specific section very easily.
+
+3.- Efficiency: How fast does your code run
+
+4.- Length: Not always the shorter the better, if your code is too short that nobody understands it than it breaks the
+rule number one, which is keep your code readable, but has long has your code is readable and easy to understand its good
+mantain the code has short has possible, without break the rule number one.
+
+Recommendations
+Avoid repetition
+Check regularly to make sure that our refactoring is not breaking our website
+```
+```
+Structure the code so that we keep all of our HTML elements selectors in one group, the class selectors in other group
+and the id slectors in other group.
+There are styles that shouldn't be aplied to tag slectors like h1, instead should be applied more specifically to a type
+of heading class.
+Styles you want to place across all of the h1, h2, h3... are very broad like:
+font-family:
+color: (if you have a color scheme)
+But never use font-size or line height that are more specifics, this can be use in a specific class container.
+so instead of targetin the h1 add a class to h1
+```
+```
+Targeting more tha one tag or selector
+h1,h2,h3,h4,h5,h6 {
+ <Some style>
+}
+Advantages: Less repetition, much better structured and more modular code.
+
+All of our HTML elements are doing very broad stroke across the web site, there's nothing specific in this HTML element
+Whenever you're trying to apply some specific styles you want to ask yourself if you want to use a class.
+
+Normally what you would do is, as you go along as you're writting the code and as you realize oportunities for refactoring, 
+you would do it there and then, rather than waitng to finish the code.
+
+We're using Bootstrap classes wich have defined specific styles for different types of headings or buttons and all we need
+to do is just add the class, and whit refactoring the code we're kind of doing this for ourselves, i.e. we want our big
+heading to look a particular way, our section heading to look another way, and we can reuse thes classes across our website,
+just like we do whit Bootstrap.
+
+Remember: Container-fluid  is a Bootstrap class we can combine some selectors
+```
+```css
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+```
